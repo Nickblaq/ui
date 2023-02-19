@@ -2,13 +2,8 @@
 
 import * as React from "react"
 import Link from "next/link"
-
-import { docsConfig } from "@/config/docs"
-import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
@@ -16,8 +11,13 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { ScrollArea } from "@/components/ui/scroll-area"
+  ScrollArea,
+} from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
+
+import { docsConfig } from "@/config/docs"
+import { siteConfig } from "@/config/site"
+import { Icons } from "@/components/icons"
 
 export function MobileNav() {
   return (

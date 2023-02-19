@@ -2,9 +2,6 @@
 
 import * as React from "react"
 import Link from "next/link"
-
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -13,7 +10,10 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
+} from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
+
+import { Icons } from "@/components/icons"
 
 const components: { title: string; href: string; description: string }[] = [
   {

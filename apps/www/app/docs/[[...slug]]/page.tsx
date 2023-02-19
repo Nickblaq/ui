@@ -3,6 +3,7 @@ import { allDocs } from "contentlayer/generated"
 
 import "@/styles/mdx.css"
 import Link from "next/link"
+import { Separator } from "@shadcn/ui"
 
 import { getTableOfContents } from "@/lib/toc"
 import { Icons } from "@/components/icons"
@@ -10,7 +11,6 @@ import { Mdx } from "@/components/mdx"
 import { DocsPageHeader } from "@/components/page-header"
 import { DocsPager } from "@/components/pager"
 import { DashboardTableOfContents } from "@/components/toc"
-import { Separator } from "@/components/ui/separator"
 
 interface DocPageProps {
   params: {

@@ -1,7 +1,6 @@
 "use client"
 
-import { Label } from "@/components/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Label, RadioGroup, RadioGroupItem } from "@shadcn/ui"
 
 export function RadioGroupDemo() {
   return (

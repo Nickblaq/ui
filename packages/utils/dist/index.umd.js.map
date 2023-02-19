@@ -1,0 +1,1 @@
+{"version":3,"file":"index.umd.js","sources":["../src/index.ts"],"sourcesContent":["import { ClassValue, clsx } from \"clsx\"\nimport { twMerge } from \"tailwind-merge\"\n\nexport function cn(...inputs: ClassValue[]) {\n  return twMerge(clsx(inputs))\n}\n"],"names":["cn","twMerge","clsx"],"mappings":";;;;;WAGgBA;EACd,SAAOC,qBAAO,CAACC,SAAI,0BAAL,CAAd;EACD;;;;;;;;"}

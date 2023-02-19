@@ -1,14 +1,13 @@
 "use client"
 
-import { Plus } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/components/ui/tooltip"
+} from "@shadcn/ui"
+import { Plus } from "lucide-react"
 
 export function TooltipDemo() {
   return (

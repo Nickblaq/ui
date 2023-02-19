@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { buttonVariants } from "@shadcn/ui"
 
 import { siteConfig } from "@/config/site"
 import { CommandMenu } from "@/components/command-menu"
@@ -6,7 +7,6 @@ import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
 import { ModeToggle } from "@/components/mode-toggle"
-import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
   return (

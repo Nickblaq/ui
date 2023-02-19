@@ -3,14 +3,8 @@
 import * as React from "react"
 import { useRouter } from "next/navigation"
 import { DialogProps } from "@radix-ui/react-alert-dialog"
-import { allDocs } from "contentlayer/generated"
-import { Circle, File, Laptop, Moon, SunMedium } from "lucide-react"
-import { useTheme } from "next-themes"
-
-import { docsConfig } from "@/config/docs"
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   CommandDialog,
   CommandEmpty,
   CommandGroup,
@@ -18,7 +12,13 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/components/ui/command"
+} from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
+import { allDocs } from "contentlayer/generated"
+import { Circle, File, Laptop, Moon, SunMedium } from "lucide-react"
+import { useTheme } from "next-themes"
+
+import { docsConfig } from "@/config/docs"
 
 export function CommandMenu({ ...props }: DialogProps) {
   const router = useRouter()

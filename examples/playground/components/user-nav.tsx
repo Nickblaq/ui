@@ -4,11 +4,8 @@ import * as React from "react"
 import Image from "next/image"
 import { Workspace as Team, User } from "@/types"
 import { DropdownMenuProps } from "@radix-ui/react-dropdown-menu"
-import { Check } from "lucide-react"
-import { useTheme } from "next-themes"
-
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
@@ -16,7 +13,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuShortcut,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@shadcn/ui"
+import { Check } from "lucide-react"
+import { useTheme } from "next-themes"
 
 interface UserNavProps extends DropdownMenuProps {
   user: User

@@ -1,5 +1,4 @@
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Input, Label } from "@shadcn/ui"
 
 export function InputWithLabel() {
   return (

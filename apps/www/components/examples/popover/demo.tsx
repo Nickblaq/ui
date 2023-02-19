@@ -1,15 +1,14 @@
 "use client"
 
-import { Settings2 } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 import {
+  Button,
+  Input,
+  Label,
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@shadcn/ui"
+import { Settings2 } from "lucide-react"
 
 export function PopoverDemo() {
   return (

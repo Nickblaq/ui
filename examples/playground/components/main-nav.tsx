@@ -3,9 +3,6 @@
 import * as React from "react"
 import Link from "next/link"
 import { Example } from "@/types"
-
-import { examples } from "@/data/examples"
-import { cn } from "@/lib/utils"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -14,7 +11,10 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
+} from "@shadcn/ui"
+
+import { examples } from "@/data/examples"
+import { cn } from "@/lib/utils"
 
 export function MainNav() {
   return (

@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-
 import {
   Select,
   SelectContent,
@@ -11,7 +10,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@shadcn/ui"
 
 export function SelectDemo() {
   return (

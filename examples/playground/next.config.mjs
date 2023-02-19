@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ["images.unsplash.com", "avatars.githubusercontent.com"],
   },
+  transpilePackages: ["@shadcn/ui", "@shadcn/utils"],
   experimental: {
     appDir: true,
     fontLoaders: [

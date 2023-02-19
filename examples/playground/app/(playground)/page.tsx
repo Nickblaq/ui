@@ -1,3 +1,16 @@
+import {
+  Button,
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+  Label,
+  Separator,
+  Tabs,
+  TabsContent,
+  TabsList,
+  TabsTrigger,
+  Textarea,
+} from "@shadcn/ui"
 import { History } from "lucide-react"
 
 import { models, types } from "@/data/models"
@@ -12,16 +25,6 @@ import { PresetSelector } from "@/components/preset-selector"
 import { PresetShare } from "@/components/preset-share"
 import { TemperatureSelector } from "@/components/temperature-selector"
 import { TopPSelector } from "@/components/top-p-selector"
-import { Button } from "@/components/ui/button"
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import { Label } from "@/components/ui/label"
-import { Separator } from "@/components/ui/separator"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Textarea } from "@/components/ui/textarea"
 
 export default function PlaygroundPage() {
   return (
@@ -113,15 +116,15 @@ export default function PlaygroundPage() {
                   </HoverCardContent>
                 </HoverCard>
                 <TabsList className="grid grid-cols-3">
-                  <TabsTrigger value="complete">
+                  <TabsTrigger value="complete" className="min-w-[auto]">
                     <span className="sr-only">Complete</span>
                     <Icons.completeMode className="h-5 w-5" />
                   </TabsTrigger>
-                  <TabsTrigger value="insert">
+                  <TabsTrigger value="insert" className="min-w-[auto]">
                     <span className="sr-only">Insert</span>
                     <Icons.insertMode className="h-5 w-5" />
                   </TabsTrigger>
-                  <TabsTrigger value="edit">
+                  <TabsTrigger value="edit" className="min-w-[auto]">
                     <span className="sr-only">Edit</span>
                     <Icons.editMode className="h-5 w-5" />
                   </TabsTrigger>

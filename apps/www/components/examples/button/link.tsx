@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@shadcn/ui"
 
 export function ButtonLink() {
   return <Button variant="link">Link</Button>

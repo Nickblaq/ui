@@ -3,13 +3,10 @@
 import * as React from "react"
 import { useRouter } from "next/navigation"
 import { toast } from "@/hooks/use-toast"
+import { Button, Input, Label, Separator } from "@shadcn/ui"
 
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Separator } from "@/components/ui/separator"
 
 interface UserAuthFormProps extends React.HTMLAttributes<HTMLFormElement> {}
 

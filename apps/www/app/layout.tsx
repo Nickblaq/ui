@@ -1,13 +1,14 @@
 import { Inter as FontSans } from "@next/font/google"
 
 import "@/styles/globals.css"
-import { cn } from "@/lib/utils"
+import { Toaster } from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
+
 import { Analytics } from "@/components/analytics"
 import { SiteFooter } from "@/components/site-footer"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
-import { Toaster } from "@/components/ui/toaster"
 
 const fontSans = FontSans({
   subsets: ["latin"],

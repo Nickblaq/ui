@@ -1,9 +1,9 @@
 import Link from "next/link"
+import { buttonVariants } from "@shadcn/ui"
 import { ChevronLeft } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
-import { buttonVariants } from "@/components/ui/button"
 import { UserAuthForm } from "@/components/user-auth-form"
 
 export default function LoginPage() {

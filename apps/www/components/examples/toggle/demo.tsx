@@ -1,8 +1,7 @@
 "use client"
 
+import { Toggle } from "@shadcn/ui"
 import { Italic } from "lucide-react"
-
-import { Toggle } from "@/components/ui/toggle"
 
 export function ToggleDemo() {
   return (

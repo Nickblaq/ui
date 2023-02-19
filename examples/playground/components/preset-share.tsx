@@ -1,10 +1,8 @@
 "use client"
 
 import { PopoverProps } from "@radix-ui/react-popover"
-import { Clipboard, Copy } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   Dialog,
   DialogContent,
   DialogDescription,
@@ -12,14 +10,13 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import {
+  Input,
+  Label,
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@shadcn/ui"
+import { Clipboard, Copy } from "lucide-react"
 
 export function PresetShare() {
   return (

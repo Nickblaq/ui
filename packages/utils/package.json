@@ -1,0 +1,52 @@
+{
+  "name": "@shadcn/utils",
+  "description": "Helpers for building UI components.",
+  "version": "0.0.1",
+  "sideEffects": false,
+  "private": true,
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "umdModuleIds": {
+    "clsx": "clsx",
+    "tailwind-merge": "tailwindMerge"
+  },
+  "author": {
+    "name": "shadcn",
+    "url": "https://twitter.com/shadcn"
+  },
+  "scripts": {
+    "prepare": "microbundle --no-compress",
+    "dev": "microbundle watch --no-compress"
+  },
+  "keywords": [
+    "ui",
+    "components",
+    "radix-ui",
+    "tailwind"
+  ],
+  "bugs": {
+    "url": "https://github.com/shadcn/ui/issues"
+  },
+  "homepage": "https://github.com/shadcn/ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadcn/ui.git",
+    "directory": "packages/utils"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0 || ^18.0",
+    "react-dom": "^17.0 || ^18.0"
+  }
+}

@@ -1,10 +1,10 @@
 import Link from "next/link"
+import { buttonVariants } from "@shadcn/ui"
 
 import { siteConfig } from "@/config/site"
 import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { buttonVariants } from "@/components/ui/button"
 
 export function SiteHeader() {
   return (

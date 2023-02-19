@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/textarea"
+import { Button, Textarea } from "@shadcn/ui"
 
 export function TextareaWithButton() {
   return (

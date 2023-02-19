@@ -1,6 +1,5 @@
+import { Button } from "@shadcn/ui"
 import { Mail } from "lucide-react"
-
-import { Button } from "@/components/ui/button"
 
 export function ButtonWithIcon() {
   return (

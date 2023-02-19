@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3030",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3030",
     "lint": "next lint",
-    "preview": "next build && next start",
+    "preview": "next build && next start -p 3030",
     "typecheck": "contentlayer build && tsc --noEmit",
     "format:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
@@ -15,7 +15,6 @@
   "dependencies": {
     "@next/font": "^13.1.6",
     "@radix-ui/react-accessible-icon": "^1.0.1",
-    "@radix-ui/react-accordion": "^1.1.0",
     "@radix-ui/react-alert-dialog": "^1.0.2",
     "@radix-ui/react-aspect-ratio": "^1.0.1",
     "@radix-ui/react-avatar": "^1.0.1",
@@ -42,6 +41,8 @@
     "@radix-ui/react-toggle": "^1.0.1",
     "@radix-ui/react-toggle-group": "^1.0.1",
     "@radix-ui/react-tooltip": "^1.0.3",
+    "@shadcn/ui": "workspace:*",
+    "@shadcn/utils": "workspace:*",
     "@vercel/analytics": "^0.1.6",
     "@vercel/og": "^0.0.21",
     "class-variance-authority": "^0.4.0",

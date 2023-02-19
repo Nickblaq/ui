@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { Button, buttonVariants } from "@shadcn/ui"
 import { HelpCircle, Zap } from "lucide-react"
 
 import { workspaces } from "@/data/teams"
@@ -7,7 +8,6 @@ import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
-import { Button, buttonVariants } from "@/components/ui/button"
 import { UserNav } from "@/components/user-nav"
 
 interface DashboardLayoutProps {

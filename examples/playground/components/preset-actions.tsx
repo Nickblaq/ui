@@ -3,8 +3,6 @@
 import * as React from "react"
 import { toast } from "@/hooks/use-toast"
 import { Dialog } from "@radix-ui/react-dialog"
-import { Flag, MoreHorizontal, Trash } from "lucide-react"
-
 import {
   AlertDialog,
   AlertDialogCancel,
@@ -13,24 +11,21 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-} from "@/components/ui/alert-dialog"
-import { Button } from "@/components/ui/button"
-import {
+  Button,
   DialogContent,
   DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/components/ui/dialog"
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import { Label } from "@/components/ui/label"
-import { Switch } from "@/components/ui/switch"
+  Label,
+  Switch,
+} from "@shadcn/ui"
+import { Flag, MoreHorizontal, Trash } from "lucide-react"
 
 export function PresetActions() {
   const [open, setIsOpen] = React.useState(false)

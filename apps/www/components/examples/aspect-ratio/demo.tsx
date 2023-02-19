@@ -1,8 +1,7 @@
 "use client"
 
 import Image from "next/image"
-
-import { AspectRatio } from "@/components/ui/aspect-ratio"
+import { AspectRatio } from "@shadcn/ui"
 
 export function AspectRatioDemo() {
   return (

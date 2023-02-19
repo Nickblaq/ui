@@ -1,11 +1,11 @@
 import Link from "next/link"
+import { buttonVariants } from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
 import { AppleMusicDemo } from "@/components/apple-music-demo"
 import { CopyButton } from "@/components/copy-button"
 import { PromoVideo } from "@/components/promo-video"
-import { buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (

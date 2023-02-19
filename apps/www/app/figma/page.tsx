@@ -1,9 +1,7 @@
 import Link from "next/link"
+import { AspectRatio, buttonVariants } from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
 import { Heart } from "lucide-react"
-
-import { cn } from "@/lib/utils"
-import { AspectRatio } from "@/components/ui/aspect-ratio"
-import { buttonVariants } from "@/components/ui/button"
 
 export default function FigmaPage() {
   return (

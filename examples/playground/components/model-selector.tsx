@@ -4,30 +4,26 @@ import * as React from "react"
 import { useMutationObserver } from "@/hooks/use-mutation-observer"
 import { Model } from "@/types"
 import { PopoverProps } from "@radix-ui/react-popover"
-import { Check, ChevronsUpDown } from "lucide-react"
-
-import { ModelType } from "@/data/models"
-import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/components/ui/command"
-import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import { Label } from "@/components/ui/label"
-import {
+  Label,
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/ui/popover"
+} from "@shadcn/ui"
+import { Check, ChevronsUpDown } from "lucide-react"
+
+import { ModelType } from "@/data/models"
+import { cn } from "@/lib/utils"
 
 interface ModelSelectorProps extends PopoverProps {
   types: readonly ModelType[]

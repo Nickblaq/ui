@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button"
+import { Button } from "@shadcn/ui"
 
 export function ButtonSubtle() {
   return <Button variant="subtle">Subtle</Button>

@@ -2,14 +2,13 @@
 
 import * as React from "react"
 import { SliderProps } from "@radix-ui/react-slider"
-
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card"
-import { Label } from "@/components/ui/label"
-import { Slider } from "@/components/ui/slider"
+  Label,
+  Slider,
+} from "@shadcn/ui"
 
 interface TopPSelectorProps {
   defaultValue: SliderProps["defaultValue"]

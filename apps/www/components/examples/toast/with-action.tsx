@@ -1,9 +1,6 @@
 "use client"
 
-import { useToast } from "@/hooks/use-toast"
-
-import { Button } from "@/components/ui/button"
-import { ToastAction } from "@/components/ui/toast"
+import { Button, ToastAction, useToast } from "@shadcn/ui"
 
 export function ToastWithAction() {
   const { toast } = useToast()

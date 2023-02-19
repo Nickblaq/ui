@@ -2,11 +2,6 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { allDocs } from "contentlayer/generated"
-
-import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
-import { Icons } from "@/components/icons"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -14,10 +9,15 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
+  Separator,
+  buttonVariants,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
-import { buttonVariants } from "./ui/button"
-import { Separator } from "./ui/separator"
+} from "@shadcn/ui"
+import { cn } from "@shadcn/utils"
+import { allDocs } from "contentlayer/generated"
+
+import { siteConfig } from "@/config/site"
+import { Icons } from "@/components/icons"
 
 export function MainNav() {
   return (

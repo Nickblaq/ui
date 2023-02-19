@@ -1,5 +1,4 @@
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
+import { Label, Textarea } from "@shadcn/ui"
 
 export function TextareaWithLabel() {
   return (

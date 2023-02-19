@@ -1,9 +1,11 @@
+"use client"
+
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@shadcn/ui"
 
 export function AccordionDemo() {
   return (

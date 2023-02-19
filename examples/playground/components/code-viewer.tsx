@@ -1,14 +1,14 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import {
+  Button,
   Dialog,
   DialogContent,
   DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/components/ui/dialog"
+} from "@shadcn/ui"
 
 export function CodeViewer() {
   return (
